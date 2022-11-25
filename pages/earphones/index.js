@@ -2,7 +2,7 @@ import Head from "next/head";
 import { db, storage } from "../../firebase";
 import { collection, query, getDocs } from "firebase/firestore";
 import Categories from "../../components/Categories";
-import About from "../../components/About";
+import About from "../../components/About1";
 import ProductCard from "../../components/ProductCard";
 
 export default function Earphones({ earphones, images }) {
